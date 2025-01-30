@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JensenDecors</title>
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+   <!-- Favicon -->
+   <link href="Images/download.png" rel="icon" width="200px">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+  <style>
+.h1{
+  color: white !important;
+  background-color: black;
+ padding: 5px;
+}
+      
+    .card {
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cart-counter {
+      background: red;
+      color: white;
+      border-radius: 50%;
+      padding: 2px 6px;
+      font-size: 12px;
+    }
+    .btn-group {
+      display: flex;
+      justify-content: space-between;
+    }
+    .btn-group .btn {
+      flex: 1;
+      margin-right: 5px;
+    }
+  </style>
+
+<body>
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-dark py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+              <div class="d-inline-flex align-items-center">
+                  <a class="text-white pr-3" href="">FAQs</a>
+                  <span class="text-white">|</span>
+                  <a class="text-white px-3" href="">Help</a>
+                  <span class="text-white">|</span>
+                  <a class="text-white pl-3" href="">Support</a>
+              </div>
+          </div>
+          <div class="col-md-6 text-center text-lg-right">
+              <div class="d-inline-flex align-items-center">
+                  <a class="text-white px-3" href="https://www.facebook.com/">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="text-white px-3" href="https://pk.linkedin.com/">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a class="text-white px-3" href="https://www.instagram.com/">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a class="text-white pl-3" href="https://www.youtube.com/">
+                      <i class="fab fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Topbar End -->
+ <!-- Navbar Start -->
+ <div class="container-fluid position-relative nav-bar p-0">
+  <div class="container position-relative" style="z-index: 9;">
+      <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+          <a href="" class="navbar-brand">
+              <h1 class="m-0 display-5 text-white"><span class="text-primary">Jensen</span>Decors</h1>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+              <div class="navbar-nav ml-auto py-0">
+                  <a href="Home.html" class="nav-item nav-link active">Home</a>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                 
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                      <div class="dropdown-menu rounded-0 m-0">
+                          <a href="service.html" class="dropdown-item">Service</a>
+                          <a href="project.html"class="dropdown-item" >Project</a>
+                          <a href="blog.html" class="dropdown-item">Blog</a>
+                          <a href="Product compare.html" class="dropdown-item">Product compare</a>
+
+  
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Category</a>
+                      <div class="dropdown-menu rounded-0 m-0">
+                      <a href="Metal Wall Art.html" class="dropdown-item">Metal wall art</a>
+                          <a href="Wallpaper.html"class="dropdown-item" >Wall papers</a>
+                          <a href="Photoframe.html" class="dropdown-item">Photo frame art</a>
+                          <a href="Mirror art.html" class="dropdown-item">Mirror art</a>
+                          <a href="Wall Shelves.html"class="dropdown-item" >Wall shelves</a>
+                          <a href="Wall Mounted Animals.html" class="dropdown-item">Wall mounted animals</a>
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Brands</a>
+                      <div class="dropdown-menu rounded-0 m-0">
+                          <a href="https://wallmantra.com/"  target="blank" class="dropdown-item">WallMantra</a>
+                          <a href="https://www.wallanza.com/"  target="blank" class="dropdown-item" >Wallanza</a>
+                          <a href="https://www.artystagallery.com/"  target="blank" class="dropdown-item">Artysta</a>
+                          <a href="https://wallsneedlove.com/" target="blank"  class="dropdown-item">WallsNeedLove</a>
+                          <a href="https://www.wallartprints.com/"  target="blank" class="dropdown-item" >Wall Art Prints</a>
+                          <a href="https://desenio.com/"  target="blank" class="dropdown-item">Desenio</a>
+                      </div>
+                  </div>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+      </nav>
+  </div>
+</div>
+<!-- Navbar End -->
+<!-- Under Nav Start -->
+<div class="container-fluid bg-white py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 text-left mb-3 mb-lg-0">
+              <div class="d-inline-flex text-left">
+                  <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                  <div class="d-flex flex-column">
+                      <h5>Our Office</h5>
+                      <p class="m-0">Aptech-nn2 North-nazimabad</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+              <div class="d-inline-flex text-left">
+                  <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                  <div class="d-flex flex-column">
+                      <h5>Email Us</h5>
+                      <p class="m-0">JensenDecor@gmail.com</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+              <div class="d-inline-flex text-left">
+                  <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                  <div class="d-flex flex-column">
+                      <h5>Call Us</h5>
+                      <p class="m-0">03123456789</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Under Nav End -->
+   <!-- Page Header Start -->
+   <div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Wall Shelves</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Wall Shelves</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header end -->
+
+<h1 class="text-center mb-4 h1">Wall Shelves</h1>
+
+<div class="mt-4 text-end">
+  <button class="btn btn-primary position-fixed" data-bs-toggle="modal" data-bs-target="#cartModal">
+    Cart <span id="cartCount" class="cart-counter">0</span>
+  </button>
+</div>
+</div>
+
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Floating Wall Shelves</h2>
+    <div class="row" id="productGrid">
+      <!-- Product Cards -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card" >
+          <img src="Images/wall shelf1.webp" class="card-img-top" alt="Product 1">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf1.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Black Wooden Scalloped Floating Wall Shelves</h5>
+            <p class="card-text">PKR6500</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now"  data-id="1">Buy Now</button>
+              <a href="Word Files/Black Wooden Scalloped Floating Wall Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card" >
+          <img src="Images/wall shelf2.webp" class="card-img-top" alt="Product 2">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf2.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Natural Wooden Scalloped Floating Wall Shelves</h5>
+            <p class="card-text">PKR6500</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="2">Buy Now</button>
+              <a href="Word Files/Natural Wooden Scalloped Floating Wall Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card" >
+          <img src="Images/wall shelf3.webp" class="card-img-top" alt="Product 3">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf3.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Floral & Black Metal Display Floating Wall Shelves</h5>
+            <p class="card-text">PKR8000</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="3">Buy Now</button>
+              <a href="Word Files/Floral & Black Metal Display Floating Wall Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card" >
+          <img src="Images/wall shelf4.webp" class="card-img-top" alt="Product 4">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf4.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Walnut Wood Floating Shelves</h5>
+            <p class="card-text">PKR4500</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="4">Buy Now</button>
+              <a href="Word Files/Walnut Wood Floating Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="Images/wall shelf5.webp" class="card-img-top" alt="Product 5">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf5.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Sunrise Decorative Floating Wall Shelf in Antique Brass</h5>
+            <p class="card-text">PKR6500</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="5">Buy Now</button>
+              <a href="Word Files/Sunrise Decorative Floating Wall Shelf in Antique Brass word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="Images/wall shelf6.webp" class="card-img-top" alt="Product 6">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf6.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Black Glass Pots Storage Floating Wall Shelf</h5>
+            <p class="card-text">PKR5550</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="6">Buy Now</button>
+              <a href="Word Files/Black Glass Pots Storage Floating Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="Images/wall shelf7.webp" class="card-img-top" alt="Product 7">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf7.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Pigeon Hole Floating Wall Shelf</h5>
+            <p class="card-text">PKR7900</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="7">Buy Now</button>
+              <a href="Word Files/Pigeon Hole Floating Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="Images/wall shelf8.webp" class="card-img-top" alt="Product 8">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-outline-primary m-1 col-12" href="Images/wall shelf8.webp" data-lightbox="portfolio">
+                <i class="fa fa-eye"></i>
+            </a>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Reclaimed Wood Floating Wall Shelf</h5>
+            <p class="card-text">PKR13500</p>
+            <div class="btn-group">
+              <button class="btn btn-primary btn-sm buy-now" data-id="8">Buy Now</button>
+              <a href="Word Files/Reclaimed Wood Floating Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2 subcategory -->
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Corner Wall Shelves</h2>
+      <div class="row" id="productGrid">
+        <!-- Product Cards -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf1.jpg" class="card-img-top" alt="Product 1">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf1.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Tall Corner Wall Shelf Style Work</h5>
+              <p class="card-text">PKR5500</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="1">Buy Now</button>
+                <a href="Word Files/Tall Corner Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf2.webp" class="card-img-top" alt="Product 2">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf2.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Corner Floating Shelves Wall Mounted Set of 4</h5>
+              <p class="card-text">PKR6500</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="2">Buy Now</button>
+                <a href="Word Files/Corner Floating Shelves Wall Mounted Set of 4 word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="Images/corner shelf3.webp" class="card-img-top" alt="Product 3" height="250px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf3.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Floating Corner Shelves Set of 3</h5>
+              <p class="card-text">PKR5000</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="3">Buy Now</button>
+                <a href="Word Files/Floating Corner Shelves Set of 3 word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf4.jpg" class="card-img-top" alt="Product 4" height="250px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf4.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Corner rustic wooden shelf Style</h5>
+              <p class="card-text">PKR5800</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="4">Buy Now</button>
+                <a href="Word Files/Corner rustic wooden shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf5.avif" class="card-img-top" alt="Product 5">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf5.avif" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Corner tree branch bookshelf Style</h5>
+              <p class="card-text">PKR7900</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="5">Buy Now</button>
+                <a href="Word Files/Corner tree branch bookshelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf6.avif" class="card-img-top" alt="Product 6">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf6.avif" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Corner floating shelves solid wood</h5>
+              <p class="card-text">PKR8400</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="6">Buy Now</button>
+                <a href="Word Files/Corner floating shelves solid wood word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf7.avif" class="card-img-top" alt="Product 7">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf7.avif" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Floating Wooden Corner Shelves</h5>
+              <p class="card-text">PKR9000</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="7">Buy Now</button>
+                <a href="Word Files/Floating Wooden Corner Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/corner shelf8.webp" class="card-img-top" alt="Product 8">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/corner shelf8.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Metal Corner Wall Shelves Design</h5>
+              <p class="card-text">PKR6900</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="8">Buy Now</button>
+                <a href="Word Files/Metal Corner Wall Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- 3 subcategory -->
+    
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Modern Wall Shelves</h2>
+      <div class="row" id="productGrid">
+        <!-- Product Cards -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="images/modern shelf1.webp" class="card-img-top" alt="Product 1"  height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf1.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Mid-Century Modern Wall Shelf</h5>
+              <p class="card-text">PKR7700</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="1">Buy Now</button>
+                <a href="Word Files/Mid-Century Modern Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="Images/modern shelf2.webp" class="card-img-top" alt="Product 2"  height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf2.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Wavy Wooden Wall Shelf Style</h5>
+              <p class="card-text">PKR9200</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="2">Buy Now</button>
+                <a href="Word Files/Modern Wavy Wooden Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="images/modern shelf3.webp" class="card-img-top" alt="Product 3"  height="300px" >
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf3.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Bedroom Shelves Work </h5>
+              <p class="card-text">PKR4900</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="3">Buy Now</button>
+                <a href="Word Files/Modern Bedroom Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="images/modern shelf4.webp" class="card-img-top" alt="Product 4" height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf4.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Hexagons Wall Shelves Design</h5>
+              <p class="card-text">PKR7500</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="4">Buy Now</button>
+                <a href="Word Files/Modern Hexagons Wall Shelves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="images/modern shelf5.webp" class="card-img-top" alt="Product 5" height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf5.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Thick Wall Shellf with lights</h5>
+              <p class="card-text">PK4600</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="5">Buy Now</button>
+                <a href="Word Files/Modern Thick Wall Shelf with lights word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/modern shelf7.webp" class="card-img-top" alt="Product 6" height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf7.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Metal Kitchen Shelfy Style</h5>
+              <p class="card-text">PKR6500</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="6">Buy Now</button>
+                <a href="Word Files/Modern Metal Kitchen Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="images/modern shelf6.webp" class="card-img-top" alt="Product 7" height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf6.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Wooden Shelf with Beach Ocean Resin Waves</h5>
+              <p class="card-text">PKR8900</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="7">Buy Now</button>
+                <a href="Word Files/Modern Wooden Shelf with Beach Ocean Resin Waves word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card" >
+            <img src="images/modern shelf8.webp" class="card-img-top" alt="Product 8" height="300px">
+            <div class="d-flex align-items-center justify-content-center">
+              <a class="btn btn-outline-primary m-1 col-12" href="Images/modern shelf8.webp" data-lightbox="portfolio">
+                  <i class="fa fa-eye"></i>
+              </a>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Modern Half Curved Wall Shelf Style</h5>
+              <p class="card-text">PKR7600</p>
+              <div class="btn-group">
+                <button class="btn btn-primary btn-sm buy-now" data-id="8">Buy Now</button>
+                <a href="Word Files/Modern Half Curved Wall Shelf word file.docx" class="btn btn-dark btn-sm" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   
+  <!-- Cart Modal -->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartModalLabel">Cart Items</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
+        </div>
+        <div class="modal-body">
+          <ul id="cartItems" class="list-group">
+            <!-- Cart items will appear here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+    <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Get In Touch</h4>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>Aptech-nn2 North-nazimabad</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>03123456789</p>
+            <p><i class="fa fa-envelope mr-2"></i>JensenDecor@gmail.com</p>
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://pk.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Quick Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                <a class="text-white mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Our Blog</a>
+                <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Popular Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="Metal Wall Art.html"><i class="fa fa-angle-right mr-2"></i>Metal wall art</a>
+                <a class="text-white mb-2" href="Wallpaper.html"><i class="fa fa-angle-right mr-2"></i>Wall papers</a>
+                <a class="text-white mb-2" href="Photoframe.html"><i class="fa fa-angle-right mr-2"></i>Photo frame art</a>
+                <a class="text-white mb-2" href="Mirror art.html"><i class="fa fa-angle-right mr-2"></i>Mirror art</a>
+                <a class="text-white mb-2" href="Wall Shelves.html"><i class="fa fa-angle-right mr-2"></i>Wall shelves</a>
+                <a class="text-white" href="Wall Mounted Animals.html"><i class="fa fa-angle-right mr-2"></i>Wall mounted animals</a>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Newsletter</h4>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
+                </div>
+                <div>
+                    <button class="btn btn-lg btn-primary btn-block border-0" type="submit">Submit Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container border-top border-secondary pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">JensenDecors</a>. All Rights Reserved.
+        </p>
+    </div>
+</div>
+<!-- Footer End -->
+ <!-- Back to Top -->
+ <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- JavaScript Libraries -->
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+   <script src="lib/easing/easing.min.js"></script>
+   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+   <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+   <!-- Contact Javascript File -->
+   <script src="mail/jqBootstrapValidation.min.js"></script>
+   <script src="mail/contact.js"></script>
+
+   <!-- Template Javascript -->
+   <script src="js/main.js"></script>
+  <script>
+    // Cart functionality remains as is
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    function updateCartUI() {
+      $('#cartCount').text(cart.length);
+      const cartItems = $('#cartItems');
+      cartItems.empty();
+      if (cart.length === 0) {
+        cartItems.append('<li class="list-group-item">Cart is empty</li>');
+      } else {
+        cart.forEach(item => {
+          cartItems.append(`<li class="list-group-item d-flex justify-content-between align-items-center">
+            ${item.name} - ${item.price}
+            <button class="btn btn-sm btn-danger remove-item" data-id="${item.id}">Remove</button>
+          </li>`);
+        });
+      }
+    }
+
+    $(document).ready(function() {
+      updateCartUI();
+
+      // Buy Now functionality
+      $(document).on('click', '.buy-now', function() {
+        const id = $(this).data('id');
+        const productName = $(this).closest('.card').find('.card-title').text();
+        const productPrice = $(this).closest('.card').find('.card-text').text();
+        const product = { id, name: productName, price: productPrice };
+        if (!cart.some(item => item.id === id)) {
+          cart.push(product);
+          localStorage.setItem('cart', JSON.stringify(cart));
+          updateCartUI();
+        } else {
+          alert("Product is already in the cart!");
+        }
+      });
+
+      // Remove from Cart functionality
+      $(document).on('click', '.remove-item', function() {
+        const id = $(this).data('id');
+        cart = cart.filter(item => item.id !== id);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCartUI();
+      });
+    });
+  </script>
+</body>
+</html>
+
